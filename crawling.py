@@ -17,9 +17,6 @@ search.click()
 search.send_keys("옷")
 search.send_keys(Keys.ENTER)
 
-# 스크롤 전 높이
-before_h = browser.execute_script("return window.scrolly")
-
 # PAGE_DOWN버튼을 7번 눌러 아래로 스크롤
 for i in range(0, 7):
     # 맨 아래로 스크롤을 내린다
