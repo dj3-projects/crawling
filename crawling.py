@@ -3,14 +3,11 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 # 브라우저 생성
-browser = webdriver.Chrome("C:/chromedriver.exe")
+browser = webdriver.Chrome("C:/workspace/crawling/chromedriver.exe")
 
 # 웹 사이트 열기
-browser.get("https://www.naver.com")
+browser.get("https://shopping.naver.com/home/p/index.naver")
 browser.implicitly_wait(10)  # 로딩 끝날 때 까지 10초 기다려줌
-
-# 쇼핑 메뉴 클릭하기
-browser.find_element_by_css_selector("a.nav.shop").click()
 
 # 검색창 클릭
 search = browser.find_element_by_css_selector("input.co_srh_input._input")
