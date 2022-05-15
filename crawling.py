@@ -65,5 +65,10 @@ def crawling(keyword):
     browser.quit()
 
 
+# 상태알림 엔트리
+e_state = Entry(root, relief="solid")
+e_state.pack(pady=60)
+
+
 root.configure(bg="white")
 root.mainloop()
