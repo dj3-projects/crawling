@@ -9,7 +9,7 @@
 
 
 ## 다운로드
-[다운로드](https://github.com/dj3-projects/crawling/releases/tag/v1.0.0)  
+[다운로드](https://github.com/dj3-projects/crawling/releases/tag/v2.0.0)  
 (최신버전 : v2.0.0)
 
 
