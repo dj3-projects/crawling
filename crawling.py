@@ -64,6 +64,9 @@ def crawling(keyword):
     # 크롬 드라이버 종료
     browser.quit()
 
+    e_state.delete(0, "end")
+    e_state.insert(0, "크롤링 완료")
+
 
 def crawling_ready():
     # 검색어 받아오기
