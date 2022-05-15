@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 # 브라우저 생성
-browser = webdriver.Chrome("C:/workspace/crawling/chromedriver.exe")
+browser = webdriver.Chrome("C:/chromedriver.exe")
 
 # 웹 사이트 열기
 browser.get("https://shopping.naver.com/home/p/index.naver")
