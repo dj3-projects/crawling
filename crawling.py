@@ -3,6 +3,11 @@ from selenium.webdriver.common.keys import Keys
 import openpyxl
 import time
 
+
+# Workbook 생성
+wb = openpyxl.Workbook()
+
+
 # 브라우저 생성
 browser = webdriver.Chrome(executable_path="C:/chromedriver.exe")
 
