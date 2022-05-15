@@ -8,6 +8,11 @@
 * 파일명을 crawling_(검색어)로 저장
 
 
+## 다운로드
+[다운로드](https://github.com/dj3-projects/crawling/releases/tag/v1.0.0)  
+(최신버전 : v1.0.0)
+
+
 ## 라이선스
 이 프로젝트는 MIT License를 사용합니다.  
 자세한 내용은 [LICENSE.md](LICENSE) 파일을 참고해 주세요.
