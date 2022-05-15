@@ -53,3 +53,7 @@ for item in items:
 
 # 엑셀파일로 저장
 wb.save("crawling.xlsx")
+
+
+# 크롬 드라이버 종료
+browser.quit()
