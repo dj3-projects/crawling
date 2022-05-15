@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+import openpyxl
 import time
 
 # 브라우저 생성
