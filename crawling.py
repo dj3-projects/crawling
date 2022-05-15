@@ -47,4 +47,5 @@ for item in items:
         ".basicList_title__3P9Q7 > a"
     ).get_attribute("href")
 
-    print(name, price, link)
+    # sheet 내 각 행에 데이터 추가
+    sheet.append([name, price, link])
