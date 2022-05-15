@@ -56,7 +56,7 @@ for item in items:
 
 
 # 엑셀파일로 저장
-wb.save("crawling.xlsx")
+wb.save(f"crawling_{keyword}.xlsx")
 
 
 # 크롬 드라이버 종료
