@@ -73,6 +73,10 @@ e_state.pack(pady=60)
 lb = Label(root, text="검색어 :", bg="white")
 lb.pack(side="top", pady=10)
 
+# 검색어 엔트리
+e_keyword = Entry(root, relief="solid")
+e_keyword.pack(side="top")
+
 
 root.configure(bg="white")
 root.mainloop()
