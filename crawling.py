@@ -10,6 +10,8 @@ wb = openpyxl.Workbook()
 #  Sheet 활성화
 sheet = wb.active
 
+# 데이터프레임 내 header(변수명)생성
+sheet.append(["상품명", "가격", "주소"])
 
 # 브라우저 생성
 browser = webdriver.Chrome(executable_path="C:/chromedriver.exe")
