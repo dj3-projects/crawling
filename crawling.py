@@ -65,6 +65,14 @@ def crawling(keyword):
     browser.quit()
 
 
+def crawling_ready():
+    # 검색어 받아오기
+    keyword = e_keyword.get()
+
+    # 크롤링 시작
+    crawling(keyword)
+
+
 # 상태알림 엔트리
 e_state = Entry(root, relief="solid")
 e_state.pack(pady=60)
