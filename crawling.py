@@ -69,6 +69,10 @@ def crawling(keyword):
 e_state = Entry(root, relief="solid")
 e_state.pack(pady=60)
 
+# 레이블
+lb = Label(root, text="검색어 :", bg="white")
+lb.pack(side="top", pady=10)
+
 
 root.configure(bg="white")
 root.mainloop()
