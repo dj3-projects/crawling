@@ -49,3 +49,7 @@ for item in items:
 
     # sheet 내 각 행에 데이터 추가
     sheet.append([name, price, link])
+
+
+# 엑셀파일로 저장
+wb.save("crawling.xlsx")
