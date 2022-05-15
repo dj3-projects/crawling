@@ -5,7 +5,7 @@ import time
 
 
 # 크롤링할 상품의 검색어를 입력받음
-keyword = input("검색어를 입력하세요.")
+keyword = input("검색어를 입력하세요.\n검색어 : ")
 
 
 # Workbook 생성
