@@ -85,6 +85,18 @@ lb.pack(side="top", pady=10)
 e_keyword = Entry(root, relief="solid")
 e_keyword.pack(side="top")
 
+# 크롤링 시작 버튼
+btn = Button(
+    root,
+    text="크롤링 시작",
+    width=10,
+    height=2,
+    overrelief="solid",
+    command=crawling_ready,
+    bg="white",
+)
+btn.pack(pady=40)
+
 
 root.configure(bg="white")
 root.mainloop()
