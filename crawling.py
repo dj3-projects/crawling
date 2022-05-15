@@ -4,6 +4,10 @@ import openpyxl
 import time
 
 
+# 크롤링할 상품의 검색어를 입력받음
+keyword = input("검색어를 입력하세요.")
+
+
 # Workbook 생성
 wb = openpyxl.Workbook()
 
@@ -25,7 +29,7 @@ search = browser.find_element_by_css_selector("input.co_srh_input._input")
 search.click()
 
 # 검색어 입력
-search.send_keys("옷")
+search.send_keys(keyword)
 search.send_keys(Keys.ENTER)
 
 # PAGE_DOWN버튼을 7번 눌러 아래로 스크롤
