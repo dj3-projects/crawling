@@ -7,6 +7,9 @@ import time
 # Workbook 생성
 wb = openpyxl.Workbook()
 
+#  Sheet 활성화
+sheet = wb.active
+
 
 # 브라우저 생성
 browser = webdriver.Chrome(executable_path="C:/chromedriver.exe")
