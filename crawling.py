@@ -2,26 +2,27 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import openpyxl
 import time
-from tkinter import *            
+from tkinter import *
 
-root = Tk()                      
-root.geometry("600x400")       
-root.title("crawling product")  
-root.resizable(False, False)  
+root = Tk()
+root.geometry("600x400")
+root.title("crawling product")
+root.resizable(False, False)
 
-def btnpress():                   
-    btn.config(text = ent.get())
 
-ent = Entry(root)               
-ent.pack()                  
-    
-btn = Button(root)               
-btn.config(text= "search")          
-btn.config(width=10)         
-btn.config(command=btnpress)      
-btn.pack()                        
+def btnpress():
+    btn.config(text=ent.get())
 
-root.mainloop() 
+
+ent = Entry(root)
+ent.pack()
+
+btn = Button(root)
+btn.config(text="search")
+btn.config(width=10)
+btn.config(command=btnpress)
+btn.pack()
+
 
 # 크롤링할 상품의 검색어를 입력받음
 keyword = input("검색어를 입력하세요.\n검색어 : ")
@@ -80,3 +81,6 @@ wb.save(f"crawling_{keyword}.xlsx")
 
 # 크롬 드라이버 종료
 browser.quit()
+
+
+root.mainloop()
